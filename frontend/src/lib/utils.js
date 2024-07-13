@@ -65,6 +65,7 @@ export function getRelatedPost(post, posts) {
   return relatedPosts;
 }
 
+export function formatDateString(dateString) {
   const options = {
     year: "numeric",
     month: "short",
@@ -81,3 +82,4 @@ export function getRelatedPost(post, posts) {
 
   return `${formattedDate} at ${time}`;
 }
+xus-zbdy-emx
